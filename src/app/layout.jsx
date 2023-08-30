@@ -2,6 +2,7 @@
 import './globals.css'
 import { Lora } from 'next/font/google'
 import Navbar from '@components//Navbar'
+import Foot from '@components//Footer'
 
 const lora = Lora({ subsets: ['latin'] })
 
@@ -17,6 +18,7 @@ export default function RootLayout({ children }) {
       <body className={lora.className}>
         <Navbar />
         {children}
+        <Foot />
         </body>
     </html>
   )
