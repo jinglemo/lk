@@ -1,4 +1,4 @@
-"use client";
+
 import React from "react";
 import Prints from "@components//Prints";
 import Desi from "@components//Desi";
