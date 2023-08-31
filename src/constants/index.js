@@ -21,6 +21,8 @@ export const navLinks = [
   },
 ];
 
+
+
 export const galleryTab = [
   // you can add more image if you want
   {

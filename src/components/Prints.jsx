@@ -23,9 +23,7 @@ const Prints = () => {
             Here are the biggest enterprise technology acquisitions of 2021 so
             far, in reverse chronological order.
           </p>
-          <Link href="/portfolio">
-            <Button>Go to prints</Button>
-          </Link>
+            <Button href="/portfolio">Go to prints</Button>
         </div>
       </Card>
     </div>

@@ -8,7 +8,7 @@ import Awnings from "@components//Awnings";
 const Services = () => {
   return (
     <div className="min-h-screen flex-col items-center justify-between p-24 py-20 ">
-      <h2 className=" text-[#C22D2D] flex flex-col items-center justify-between pb-2 text-6xl tracking-wide underline decoration-double decoration-2 underline-offset-4">
+      <h2 className="text-[#C22D2D] flex flex-col items-center justify-between pb-2 text-6xl tracking-wide underline decoration-double decoration-2 underline-offset-4">
         Services
       </h2>
       <div className="flex flex-wrap justify-between space-y-4">

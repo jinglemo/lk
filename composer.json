@@ -1,0 +1,15 @@
+{
+    "name": "jingmo/lkwebsite",
+    "autoload": {
+        "psr-4": {
+            "Jingmo\\Lkwebsite\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jing Mo",
+            "email": "Jingmo39@gmail.com"
+        }
+    ],
+    "require": {}
+}

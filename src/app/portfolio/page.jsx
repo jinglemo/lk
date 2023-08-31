@@ -13,7 +13,7 @@ const Portfolio = () => {
       <div className="text-3xl p-5 text-secondary">Vestibules</div>
       <Gallery images={Vestibules} maxVisibleImages={6} />
       <div className="text-3xl p-5 text-secondary">Prints</div>
-      <Gallery images={galleryTab} maxVisibleImages={6} />
+      <Gallery id="prints" images={galleryTab} maxVisibleImages={6} />
       <div className="text-3xl p-5 text-secondary">Web Designs</div>
       <Gallery images={galleryTab} maxVisibleImages={6} />
     </div>
