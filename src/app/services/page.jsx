@@ -1,8 +1,8 @@
 "use client";
 import React from "react";
 import Prints from "@components//Prints";
-import Designs from "@components//Designs";
-import Vestibules from "@components//vestibules";
+import Desi from "@components//Desi";
+import Vestibules from "../../components/Vestibules";
 import Awnings from "@components//Awnings";
 
 const Services = () => {
@@ -16,7 +16,7 @@ const Services = () => {
             <Prints />
         </div>
         <div className="flex flex-col items-center mt-4">
-            <Designs />
+            <Desi />
         </div>
         <div className="flex flex-col items-center mt-4">
             <Awnings />
