@@ -1,19 +1,22 @@
 "use client";
 import { Card } from "flowbite-react";
 import Image from "next/image";
+import Link from "next/link";
 
 const Vestibules = () => {
   return (
     <Card className="card-custom">
       <div className="text-3xl p-3 text-center text-secondary">Vestibules</div>
       <div className="card-content flex flex-col items-center justify-center">
-        <Image
-          width={400}
-          height={400}
-          priority={true}
-          alt="Your Alt Text"
-          src="/Vestibules/Vest4.jpeg"
-        />
+        <Link href="./portfolio">
+          <Image
+            width={400}
+            height={400}
+            priority={true}
+            alt="Your Alt Text"
+            src="/Vestibules/Vest4.jpeg"
+          />
+        </Link>
         <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
           Vestibules for Homes and Stores
         </h5>

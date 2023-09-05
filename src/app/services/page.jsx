@@ -1,4 +1,3 @@
-
 import React from "react";
 import Prints from "@components//Prints";
 import Desi from "@components//Desi";
@@ -13,16 +12,16 @@ const Services = () => {
       </h2>
       <div className="flex flex-wrap justify-between space-y-4">
         <div className="flex flex-col items-center mt-4">
-            <Prints />
+          <Awnings />
         </div>
         <div className="flex flex-col items-center mt-4">
-            <Desi />
+          <Vestibules />
         </div>
         <div className="flex flex-col items-center mt-4">
-            <Awnings />
+          <Prints />
         </div>
         <div className="flex flex-col items-center mt-4">
-            <Vestibules />
+          <Desi />
         </div>
       </div>
     </div>
