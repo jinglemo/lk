@@ -28,7 +28,9 @@
   justify-content: center;
   text-align: center;
 }
-
+.red-border {
+  border: 2px solid black;
+}
 @media (max-width: 768px) {
   .gallery div {
     height: 25vh;

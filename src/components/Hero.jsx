@@ -16,7 +16,7 @@ const Hero = () => {
           Destination in NYC
         </h1>
         <div className="flex flex-col md:flex-row gap-4 mt-5 md:mt-16 xs:mt-8 w-full">
-          <Card className="bg-[#EFF1FB] w-full md:w-1/2">
+          <Card className="bg-[#EFF1FB] red-border w-full md:w-1/2">
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               For no cost consultation, contact us at:
             </h5>
@@ -31,7 +31,7 @@ const Hero = () => {
               </Button>
             </Link>
           </Card>
-          <Card className="bg-[#EFF1FB] w-full md:w-1/2">
+          <Card className="bg-[#EFF1FB] red-border w-full md:w-1/2">
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Directions:</h5>
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.629322857104!2d-74.02060392372499!3d40.63805597140473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2454d8912adbf%3A0x23951ae3fd118d0f!2sL.K.%20Creative%20Sign%20Inc!5e0!3m2!1sen!2sus!4v1693423090378!5m2!1sen!2sus"></iframe>
           </Card>
