@@ -16,7 +16,7 @@ const Gallery = ({images, maxVisibleImages}) => {
   const slides = images.map((item) => ({
     src: item.image,
     width: 4040,
-    height: 4000,
+    height: 5000,
   }));
 
 

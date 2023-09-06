@@ -50,7 +50,67 @@ const Carousel = () => {
       title: "Beauty Center",
     },
     {
-      image: "./vestibules/vest4.jpeg",
+      image: "./awnings/signs29.jpeg",
+      type: "Nature",
+      title: "Vestibules",
+    },
+    {
+      image: "./awnings/signs27.jpeg",
+      type: "Nature",
+      title: "Vestibules",
+    },
+    {
+      image: "./awnings/signs2.jpeg",
+      type: "Nature",
+      title: "Vestibules",
+    },
+    {
+      image: "./awnings/signs19.jpeg",
+      type: "Nature",
+      title: "Vestibules",
+    },
+    {
+      image: "./awnings/signs18.jpeg",
+      type: "Nature",
+      title: "Vestibules",
+    },
+    {
+      image: "./awnings/signs6.jpeg",
+      type: "Nature",
+      title: "Vestibules",
+    },
+    {
+      image: "./awnings/signs23.jpeg",
+      type: "Nature",
+      title: "Vestibules",
+    },
+    {
+      image: "./awnings/signs25.jpeg",
+      type: "Nature",
+      title: "Vestibules",
+    },
+    {
+      image: "./awnings/signs5.jpeg",
+      type: "Nature",
+      title: "Vestibules",
+    },
+    {
+      image: "./awnings/signs4.jpeg",
+      type: "Nature",
+      title: "Vestibules",
+    },
+    {
+      image: "./awnings/signs3.jpeg",
+      type: "Nature",
+      title: "Vestibules",
+    },
+    {
+      image: "./awnings/signs12.jpeg",
+      type: "Nature",
+      title: "Vestibules",
+    },
+    {
+      image: "./awnings/sign22.jpeg",
       type: "Nature",
       title: "Vestibules",
     },

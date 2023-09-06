@@ -12,7 +12,7 @@ const Hero = () => {
             textShadow: "2px 5px 5px rgba(0, 0, 0, 0.8)", // Your box shadow style
           }}
         >
-          Welcome to LK Creatives Inc. - Your Premier Sign and Awning
+          Welcome to New L.K. Creative Inc. - Your Premier Sign and Awning
           Destination in NYC
         </h1>
         <div className="flex flex-col md:flex-row gap-4 mt-5 md:mt-16 xs:mt-8 w-full">

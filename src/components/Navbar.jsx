@@ -25,7 +25,7 @@ const Navbar = () => {
           className="text-[#EFF1FB] text-[30px] font-bold cursor-pointer flex"
           style={{ paddingLeft: "20px" }}
         >
-          <Link href="/">LK Creative</Link>
+          <Link href="/">New L.K. Creative</Link>
         </div>
 
         <ul className="list-none hidden sm:flex flex-row gap-10">

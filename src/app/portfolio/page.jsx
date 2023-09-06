@@ -1,6 +1,7 @@
 "use client";
 import Gallery from "@components//Gallery";
-import { galleryTab, Vestibules } from "../../constants";
+import { galleryTab, Vestibules, led, websites } from "../../constants";
+
 
 const Portfolio = () => {
   return (
@@ -12,10 +13,10 @@ const Portfolio = () => {
       <Gallery images={galleryTab} maxVisibleImages={6} />
       <div className="text-3xl p-5 text-secondary">Vestibules</div>
       <Gallery images={Vestibules} maxVisibleImages={6} />
-      <div className="text-3xl p-5 text-secondary">Prints</div>
-      <Gallery id="prints" images={galleryTab} maxVisibleImages={6} />
+      <div className="text-3xl p-5 text-secondary">LED and Light Boxes</div>
+      <Gallery id="prints" images={led} maxVisibleImages={6} />
       <div className="text-3xl p-5 text-secondary">Web Designs</div>
-      <Gallery images={galleryTab} maxVisibleImages={6} />
+      <Gallery images={websites} maxVisibleImages={6} />
     </div>
   );
 };
