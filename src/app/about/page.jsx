@@ -1,13 +1,12 @@
 "use client";
 import React, { useState } from "react";
-import { Button } from "flowbite-react";
-import DefaultCarousel from "@components//Carousel";
+import Carousel from "@components//Carousel";
 
 const About = () => {
   return (
-    <div className="flex min-h-screen flex-col items-center justify-between p-24">
+    <div className="flex min-h-screen flex-col items-center justify-between p-5">
       <div className="text-center">
-        <h2 className="text-[#C22D2D] font-black md:text-4xl sm:text-3xl xs:text-xl text-2xl mb-6">
+        <h2 className="text-[#C22D2D] font-black md:text-4xl sm:text-3xl xs:text-xl text-2xl mb-6 pt-10">
           About Us
         </h2>
         <div className="text-gray-700 md:text-lg sm:text-md xs:text-sm leading-relaxed p-10">
@@ -21,6 +20,8 @@ const About = () => {
           retail establishments throughout the tristate area. Join us in making
           your mark on the cityscape.
         </div>
+
+        <Carousel />
       </div>
     </div>
   );

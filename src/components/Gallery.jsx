@@ -34,7 +34,7 @@ const Gallery = ({images, maxVisibleImages}) => {
                   >
                     <div className="text-3xl text-white absolute bottom-0 left-2 z-10">
                       {/* <div>{x.type}</div> */}
-                      <div>{x.title}</div>
+                      {/* <div>{x.title}</div> */}
                     </div>
                   </div>
                   <div

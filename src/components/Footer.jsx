@@ -8,10 +8,10 @@ const Foot = () => {
       <div className="w-full text-center">
         <div className="w-full justify-between sm:flex sm:items-center sm:justify-between">
           <Footer.Brand
-            alt="Flowbite Logo"
-            href="https://flowbite.com"
+            alt="LkCreatives Logo"
+            href="https://newlkcreative.com"
             name="LK Creatives"
-            src="https://flowbite.com/docs/images/logo.svg"
+            src="/logo.jpeg"
           />
           <Footer.LinkGroup>
             <Footer.Link href="/about">About</Footer.Link>

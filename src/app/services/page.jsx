@@ -10,7 +10,7 @@ const Services = () => {
       <h2 className="text-[#C22D2D] flex flex-col items-center justify-between pb-2 text-6xl tracking-wide underline decoration-double decoration-2 underline-offset-4">
         Services
       </h2>
-      <div className="flex flex-wrap justify-between space-y-4">
+      <div className="flex flex-wrap justify-center space-y-4 md:justify-between sm:justify-between">
         <div className="flex flex-col items-center mt-4">
           <Awnings />
         </div>

@@ -55,26 +55,7 @@ export const galleryTab = [
     type: "Nature",
     title: "Beautiful Work",
   },
-  {
-    image: "./Signs/johnnypumps.jpeg",
-    type: "Nature",
-    title: "Beautiful Work",
-  },
-  {
-    image: "./Signs/johnnypumps.jpeg",
-    type: "Nature",
-    title: "Beautiful Work",
-  },
-  {
-    image: "./Signs/johnnypumps.jpeg",
-    type: "Nature",
-    title: "Beautiful Work",
-  },
-  {
-    image: "./Signs/johnnypumps.jpeg",
-    type: "Nature",
-    title: "Beautiful Work",
-  },
+ 
 ];
 
 export const Vestibules = [

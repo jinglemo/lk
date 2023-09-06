@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import Lightbox from "yet-another-react-lightbox";
 import Inline from "yet-another-react-lightbox/plugins/inline";
@@ -8,54 +8,56 @@ import "yet-another-react-lightbox/styles.css";
 // import { Paragraph } from "@/components";
 
 const Carousel = () => {
-  
   const [open, setOpen] = useState(false);
   const [index, setIndex] = useState(0);
 
   const toggleOpen = (state) => () => setOpen(state);
 
   const updateIndex = ({ index: current }) => setIndex(current);
-//   const [open, setOpen] = useState(false);
+  //   const [open, setOpen] = useState(false);
   const [image, setImage] = useState("");
 
   const galleryTab = [
-// you can add more image if you wantnpm
+    // you can add more image if you wantnpm
     {
       image: "./signs/sign1.jpeg",
       type: "Nature",
       title: "Installation",
     },
     {
-      image: "./signs/green.jpeg",
+      image: "./Signs/deli.jpeg",
       type: "Nature",
-      title: "Beautiful Work",
+      title: "Deli",
     },
     {
-      image: "./signs/fingers.jpeg",
+      image: "./Signs/mala.jpeg",
       type: "Nature",
-      title: "Beautiful Work",
+      title: "Mala Resturant",
     },
     {
       image: "./signs/freshspa.jpeg",
       type: "Nature",
-      title: "Beautiful Work",
+      title: "Spa",
     },
     {
       image: "./signs/borabora.jpeg",
       type: "Nature",
-      title: "Beautiful Work",
+      title: "Bora Bora",
     },
     {
       image: "./signs/beautycenter.jpeg",
       type: "Nature",
-      title: "Beautiful Work",
+      title: "Beauty Center",
+    },
+    {
+      image: "./vestibules/vest4.jpeg",
+      type: "Nature",
+      title: "Vestibules",
     },
   ];
 
-
-
   const slides = galleryTab.map((item) => ({
-    src: item.image, 
+    src: item.image,
     width: 4040,
     height: 5000,
     srcSet: [
@@ -70,37 +72,37 @@ const Carousel = () => {
     <section className=" py-20">
       <div className="container mx-auto px-6">
         <Lightbox
-        index={index}
-        slides={slides}
-        plugins={[Inline]}
-        on={{
-          view: updateIndex,
-          click: toggleOpen(true),
-        }}
-        carousel={{
-          padding: 0,
-          spacing: 0,
-          imageFit: "cover",
-        }}
-        inline={{
-          style: {
-            width: "100%",
-            maxWidth: "100%",
-            aspectRatio: "3 / 2",
-            margin: "0 auto",
-          },
-        }}
-      />
+          index={index}
+          slides={slides}
+          plugins={[Inline]}
+          on={{
+            view: updateIndex,
+            click: toggleOpen(true),
+          }}
+          carousel={{
+            padding: 0,
+            spacing: 0,
+            imageFit: "cover",
+          }}
+          inline={{
+            style: {
+              width: "100%",
+              maxWidth: "100%",
+              aspectRatio: "3 / 2",
+              margin: "0 auto",
+            },
+          }}
+        />
 
-      <Lightbox
-        open={open}
-        close={toggleOpen(false)}
-        index={index}
-        slides={slides}
-        on={{ view: updateIndex }}
-        animation={{ fade: 0 }}
-        controller={{ closeOnPullDown: true, closeOnBackdropClick: true }}
-      />
+        <Lightbox
+          open={open}
+          close={toggleOpen(false)}
+          index={index}
+          slides={slides}
+          on={{ view: updateIndex }}
+          animation={{ fade: 0 }}
+          controller={{ closeOnPullDown: true, closeOnBackdropClick: true }}
+        />
       </div>
     </section>
   );
