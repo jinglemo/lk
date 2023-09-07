@@ -66,7 +66,7 @@ const Contact = () => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex justify-center items-center gap-10 overflow-hidden`}
+    className="min-h-screen flex-col items-center justify-between p-6 md:p-24 py-20 max-w-screen-xl mx-auto overflow-hidden"
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}

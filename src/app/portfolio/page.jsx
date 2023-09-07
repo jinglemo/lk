@@ -5,7 +5,7 @@ import { galleryTab, Vestibules, led, websites } from "../../constants";
 
 const Portfolio = () => {
   return (
-    <div className="flex min-h-screen flex-col justify-between p-5 md:p-24">
+    <div className="min-h-screen flex-col items-center justify-between p-6 md:p-24 py-20 max-w-screen-xl mx-auto">
       <div className=" text-[#C22D2D] flex flex-col items-center justify-between pb-2 text-6xl tracking-wide underline decoration-double decoration-2 underline-offset-4">
         Portfolio
       </div>
