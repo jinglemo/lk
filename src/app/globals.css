@@ -12,11 +12,11 @@
 } 
 
 .card-custom {
-  width: 600px;
-  height: 600px;
+  width: 100%; /* Full width on mobile */
+  height: "auto"; /* Auto height to fit content */
   padding: 20px;
   overflow: hidden;
-  background-color:#F4F4F4; /* Hide any content that overflows the card */
+  background-color: #F4F4F4;
   /* Add more styles as needed */
 }
 
@@ -28,9 +28,12 @@
   justify-content: center;
   text-align: center;
 }
+
+
 .red-border {
   border: 2px solid black;
 }
+
 @media (max-width: 768px) {
   .gallery div {
     height: 25vh;

@@ -8,9 +8,15 @@ import Services from "./services/page";
 const Home = () => {
   return (
     <div>
-      <Hero />
-      <Services />
-      <Carousel />
+      <div>
+        <Hero />
+      </div>
+      <div>
+        <Services />
+      </div>
+      <div>
+        <Carousel />
+      </div>
     </div>
   );
 };

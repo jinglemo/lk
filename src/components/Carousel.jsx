@@ -110,7 +110,7 @@ const Carousel = () => {
       title: "Vestibules",
     },
     {
-      image: "./awnings/sign22.jpeg",
+      image: "./awnings/signs2.jpeg",
       type: "Nature",
       title: "Vestibules",
     },

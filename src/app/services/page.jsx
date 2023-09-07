@@ -6,26 +6,28 @@ import Awnings from "@components//Awnings";
 
 const Services = () => {
   return (
-    <div className="min-h-screen flex-col items-center justify-between p-24 py-20 ">
-      <h2 className="text-[#C22D2D] flex flex-col items-center justify-between pb-2 text-6xl tracking-wide underline decoration-double decoration-2 underline-offset-4">
+    <div className="min-h-screen flex-col items-center justify-between p-6 md:p-24 py-20 max-w-screen-xl mx-auto">
+      <h2 className="text-[#C22D2D] text-center text-6xl tracking-wide underline decoration-double decoration-2 underline-offset-4">
         Services
       </h2>
-      <div className="flex flex-wrap justify-center space-y-4 md:justify-between sm:justify-between">
-        <div className="flex flex-col items-center mt-4">
+      <div className="flex flex-wrap justify-center mt-8">
+        {/* On larger screens, display as rows */}
+        <div className="flex flex-row items-center mt-4 mx-4 md:flex-col">
           <Awnings />
         </div>
-        <div className="flex flex-col items-center mt-4">
+        <div className="flex flex-row items-center mt-4 mx-4 md:flex-col">
           <Vestibules />
         </div>
-        <div className="flex flex-col items-center mt-4">
+        <div className="flex flex-row items-center mt-4 mx-4 md:flex-col">
           <Prints />
         </div>
-        <div className="flex flex-col items-center mt-4">
+        <div className="flex flex-row items-center mt-4 mx-4 md:flex-col">
           <Desi />
         </div>
       </div>
     </div>
   );
 };
+
 
 export default Services;
