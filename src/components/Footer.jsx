@@ -13,11 +13,11 @@ const Foot = () => {
             name="LK Creatives"
             src="/logo.jpeg"
           />
-          <Footer.LinkGroup>
-            <Footer.Link href="/about">About</Footer.Link>
-            <Footer.Link href="/">Home</Footer.Link>
-            <Footer.Link href="/portfolio">Portfolio</Footer.Link>
-            <Footer.Link href="/contact">Contact</Footer.Link>
+          <Footer.LinkGroup className="sm:flex sm:items-center sm:justify-between">
+            <Footer.Link href="/about">| About |</Footer.Link>
+            <Footer.Link href="/">| Home |</Footer.Link>
+            <Footer.Link href="/portfolio">| Portfolio |</Footer.Link>
+            <Footer.Link href="/contact">| Contact |</Footer.Link>
           </Footer.LinkGroup>
         </div>
         
