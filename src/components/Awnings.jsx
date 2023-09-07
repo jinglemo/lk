@@ -6,7 +6,7 @@ const Awnings = () => {
     <ProjectCard
       title="Awnings/Signs"
       heading="Quality Awnings/Signs"
-      imageSrc="/Awnings/signs15.jpeg"
+      imageSrc="/Awnings/signs34.jpeg"
       description="Elevate your space with our premium awnings and signs. Crafted for
       outdoor elegance, our collection embodies meticulous craftsmanship
       that complements any style. With enduring quality, our awnings and
