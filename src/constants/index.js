@@ -41,7 +41,7 @@ export const galleryTab = [
     title: "Beautiful Work",
   },
   {
-    image: "./Signs/mala.jpeg",
+    image: "./Signs/borabora.jpeg",
     type: "Nature",
     title: "Beautiful Work",
   },
@@ -131,9 +131,6 @@ export const led = [
     image:"./led/led1.jpeg"
   },
   {
-    image:"./led/led2.jpeg"
-  },
-  {
     image:"./led/led3.jpeg"
   },
   {
@@ -210,4 +207,145 @@ export const led = [
   {
     image:"./websites/website4.jpeg"
   }
+ ]
+
+ export const Awnings = [
+  {
+    image:"./awnings/signs1.jpeg"
+  },
+  {
+    image:"./awnings/signs2.jpeg"
+  },
+  {
+    image:"./awnings/signs3.jpeg"
+  },
+  {
+    image:"./awnings/signs4.jpeg"
+  },
+  {
+    image:"./awnings/signs5.jpeg"
+  },
+  {
+    image:"./awnings/signs6.jpeg"
+  },
+  {
+    image:"./awnings/signs7.jpeg"
+  },
+  {
+    image:"./awnings/signs8.jpeg"
+  },
+  {
+    image:"./awnings/signs9.jpeg"
+  },
+  {
+    image:"./awnings/signs10.jpeg"
+  },
+  {
+    image:"./awnings/signs11.jpeg"
+  },
+  {
+    image:"./awnings/signs12.jpeg"
+  },
+  {
+    image:"./awnings/signs13.jpeg"
+  },
+  {
+    image:"./awnings/signs14.jpeg"
+  },
+  {
+    image:"./awnings/signs15.jpeg"
+  },
+  {
+    image:"./awnings/signs16.jpeg"
+  },
+  {
+    image:"./awnings/signs17.jpeg"
+  },
+  {
+    image:"./awnings/signs18.jpeg"
+  },
+  {
+    image:"./awnings/signs19.jpeg"
+  },
+  {
+    image:"./awnings/signs20.jpeg"
+  },
+  {
+    image:"./awnings/signs21.jpeg"
+  },
+  {
+    image:"./awnings/signs22.jpeg"
+  },
+  {
+    image:"./awnings/signs23.jpeg"
+  },
+  {
+    image:"./awnings/signs24.jpeg"
+  },
+  {
+    image:"./awnings/signs25.jpeg"
+  },
+  {
+    image:"./awnings/signs26.jpeg"
+  },
+  {
+    image:"./awnings/signs27.jpeg"
+  },
+  {
+    image:"./awnings/signs28.jpeg"
+  },
+  {
+    image:"./awnings/signs29.jpeg"
+  },
+  {
+    image:"./awnings/signs30.jpeg"
+  },
+  {
+    image:"./awnings/signs31.jpeg"
+  },
+  {
+    image:"./awnings/signs32.jpeg"
+  },
+  {
+    image:"./awnings/signs33.jpeg"
+  },
+  {
+    image:"./awnings/signs34.jpeg"
+  },
+  {
+    image:"./awnings/signs35.jpeg"
+  },
+  {
+    image:"./awnings/signs36.jpeg"
+  },
+  {
+    image:"./awnings/signs37.jpeg"
+  },
+  {
+    image:"./awnings/signs38.jpeg"
+  },
+  {
+    image:"./awnings/signs39.jpeg"
+  },
+  {
+    image:"./awnings/signs40.jpeg"
+  },
+  {
+    image:"./awnings/signs41.jpeg"
+  },
+  {
+    image:"./awnings/signs42.jpeg"
+  },
+  {
+    image:"./awnings/signs43.jpeg"
+  },
+  {
+    image:"./awnings/signs44.jpeg"
+  },
+  {
+    image:"./awnings/signs45.jpeg"
+  },
+  {
+    image:"./awnings/signs46.jpeg"
+  },
  ]
