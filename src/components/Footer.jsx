@@ -10,7 +10,7 @@ const Foot = () => {
           <Footer.Brand
             alt="LkCreatives Logo"
             href="https://newlkcreative.com"
-            name="LK Creatives"
+            name="New L.K. Creative"
             src="/logo.jpeg"
           />
           <Footer.LinkGroup className="sm:flex sm:items-center sm:justify-between">
@@ -21,7 +21,7 @@ const Foot = () => {
           </Footer.LinkGroup>
         </div>
         
-        <Footer.Copyright by="LK Creatives™" href="#" year={2002} />
+        <Footer.Copyright by="New L.K. Creative™" href="#" year={2002} />
       </div>
     </Footer>
   );

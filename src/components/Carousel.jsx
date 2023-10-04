@@ -29,11 +29,7 @@ const Carousel = () => {
       type: "Nature",
       title: "Deli",
     },
-    {
-      image: "./Signs/mala.jpeg",
-      type: "Nature",
-      title: "Mala Resturant",
-    },
+    
     {
       image: "./signs/freshspa.jpeg",
       type: "Nature",
